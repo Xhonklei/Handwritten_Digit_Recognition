@@ -1,1 +1,2 @@
-# MNIST
+# Handwritten_Digit_Recognition
+
