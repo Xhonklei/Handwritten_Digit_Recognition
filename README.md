@@ -9,4 +9,7 @@ This work uses the PyTorch library to build a BPNN consisting of 4 layers:
 
 This neural network aims to recognize handwritten digits. The datasets used to train and test the model come from the MNIST database. The Stochastic Gradient Decent (SGD) optimizer is used to train the model, with Negative Log Likelihood loss (NLLloss) as the training metric. The model is set to be trained for 60 epochs with an early stop option. As an early stop, it is chosen that if the loss is not improved by 0.5 compared to the previous loss, then stop training to avoid overfitting. The model reached an accuracy of 97.68%. 
 
-## Repository content
+## Repository Content
+
+2. **`handwritten_digit_recognition.ipynb`**  
+   A Jupyter Notebook containing the implementation, training, and validation of the model in recognizing handwritten digits.
